@@ -27,6 +27,7 @@ public class HotelManagerTests {
         searchElement.click();
         searchElement.sendKeys("Dusseldorf");
         implicitlyWait(40);
+
     }
 
     @Test(description = "Select the value from dropdown.", dependsOnMethods = "launchAndRunTests")
