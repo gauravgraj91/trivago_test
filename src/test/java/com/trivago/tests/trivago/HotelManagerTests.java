@@ -66,6 +66,11 @@ public class HotelManagerTests {
         searchBox.sendKeys("Dusseldorf");
     }
 
+    @Test(description = "Filling the form", enabled = false)
+    public void fillRequestForm(){
+
+    }
+
     @AfterClass
     public void tearDown(){
         waitFor(4000);
